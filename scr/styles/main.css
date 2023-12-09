@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../imagens/back2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    border-bottom: 5px solid #584d04;
+}
+.panel{
+    margin-top: 1rem;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #b8b3b3;
+    background-color: #000000;
+}
+.enemy{
+    background-image: url("../imagens/nightmare-fredbear-t.png");
+    background-size: cover;
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2){
+    margin-top: 10px;
+}
